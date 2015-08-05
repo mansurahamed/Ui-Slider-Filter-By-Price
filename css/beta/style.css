@@ -1,0 +1,176 @@
+.SliderContainer
+{
+	min-width:550px;
+	  font-family: sans-serif;
+	letter-spacing:.7px;
+	font-size:14px;
+	font-weight:500;
+	margin-top:20px;
+	height: auto;
+	width: 80%; 
+	max-width:1100px;
+	padding: 20px;
+
+/* outer shadows  (note the rgba is red, green, blue, alpha) */
+-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+-moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+
+/* rounded corners */
+-webkit-border-radius: 12px;
+-moz-border-radius: 7px; 
+border-radius: 7px;
+
+/* gradients */
+background: -webkit-gradient(linear, left top, left bottom, 
+color-stop(0%, white), color-stop(15%, white), color-stop(100%, #D7E9F5)); 
+background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%); 
+
+}
+.SliderContainer h1 {
+  font-size:2.7rem;
+  font-weight:200;
+  color:rgba(0,0,0,0.6);
+  text-shadow:1px 1px 0px rgba(255,255,255,0.3);
+}
+.SliderContainer p {
+  font-size:1.2rem;
+  font-weight:300;
+  line-height:1.8rem;
+  color:rgba(0,0,0,0.8);
+}
+.SliderContainer table {
+  display: inline-table;
+ /* border: 1px solid #eee;*/
+  vertical-align: top; /* you  need to decide how best to align the child tables */
+  margin-left:40px;
+  padding-left:20px;
+}
+.SliderContainer td
+{
+	height:50px !important;
+	width:150px;
+	padding-right:25px;
+}
+.SliderInput
+{
+	width:230px !important;
+	border-radius:5px !important;
+	font-size:14px;
+	height:30px;
+font-family: 'Anonymous Pro', sans-serif;
+
+}
+.SliderContainer select, .SliderContainer textarea
+{
+	width:230px !important;
+	border-radius:5px !important;
+	height:120px !important;
+	max-height:120px;
+	font-family: 'Anonymous Pro', sans-serif;
+
+}
+.SliderContainer textarea
+{
+	
+	height:60px !important;
+
+
+}
+.SliderContainer select option{
+		font-size:14px;
+}
+.code{
+	font-family:"Courier New", Courier, monospace;
+	font-size:12px;
+	width:300px;
+}
+
+.SliderContainer h2{
+	font-family:'Exo', sans-serif;
+	font-weight:bold;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.SliderContainer label{
+	font-size:16px;
+}
+#sliders-list-page table tr.has-background {background:#f9f9f9;}
+.priceSliderContent{ width:100%;}
+.priceSliderContent hr{ margin-top:20px !important;margin-bottom:0px !important;}
+/*  SECTIONS GRID  */
+.section_ui_slider{
+	width:100%;
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col_ui_slider {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col_ui_slider img{ 
+	width:100% !important;
+	border:solid 1px #eee;
+	padding:7px !important;
+	
+ }
+ .col_ui_slider p{
+ text-align:center;
+  font-family: 'Exo', sans-serif;
+  font-weight:600;
+  margin-top:10px !important;
+  font-size:2rem;
+  color:#529e0e;
+  background:transparent;
+  margin:0 auto;
+  overflow:visible;
+  }
+.col_ui_slider:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group_ui_slider:before,
+.group_ui_slider:after {
+	content:"";
+	display:table;
+}
+.group_ui_slider:after {
+	clear:both;
+}
+.group_ui_slider {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+	width: 100%;
+}
+.span_1_of_1 {
+	width: 50%;
+}
+.span_2_of_3 {
+	width: 66.1%;
+}
+.span_1_of_3 {
+	width: 32.2%;
+
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col_ui_slider { margin: 1% 0 1% 0%;}
+	.col_ui_slider img{width:100%;}
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+
+@media (max-width: 860px) {
+.SliderContainer table{border:none !important;}
+	.SliderContainer h1{
+		font-size:20px;
+}
+	 }

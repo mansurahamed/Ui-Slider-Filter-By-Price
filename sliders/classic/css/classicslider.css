@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,900);
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url(http://fonts.googleapis.com/css?family=Exo:300,800);
+
+/* typo */
+
+#amount {
+  text-align:center;
+  font-family: 'Exo', sans-serif;
+  font-weight:800;
+  font-size:3rem;
+  color:#529e0e;
+  background:transparent;
+  margin:0 auto;
+  height:50px;
+  overflow:visible;
+  margin-bottom:30px;
+
+}
+#amount:focus {outline:none;}
+/* base */

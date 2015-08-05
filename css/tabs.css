@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,900);
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url(http://fonts.googleapis.com/css?family=Exo:300,800);
+        #ie-test { position: relative; width: 100%; }
+        #boxLinks { list-style: none; overflow: hidden; width:700px;}
+        #boxLinks li {  display: inline; text-align:center;  }
+        #boxLinks li a { height:38px; width:130px;background:#FFF; padding: 5px 10px; color: black; text-decoration: none; border: 1px solid #ccc; float: left; display: block; margin-left: -1px; position: relative; left: 1px; font-size:17px; font-weight:bold; padding-top:20px; border-bottom:none !important; 
+			 font-family: 'Exo', sans-serif;}
+        #boxLinks li a:hover { color: #fff; background: #000; }
+		.ulactive { color: #fff !important; background: #000 !important; }
+        #box {
+			background:white;
+max-width:550px;  
+min-width:500px;
+height: 550px; border: 1px solid #ccc; overflow: hidden; padding: 0px 30px 0px 30px; position: relative; top: -13px; }
+        .box { display: none; height: 550px; overflow: auto; display: block; position: relative; overflow-x: hidden; }
+		
+		.box h1{
+			 font-family: 'Exo', sans-serif;
+  font-weight:800;
+  font-size:3rem;}
+        #slider-type:target, #slider-properties:target, #slider-output:target { display: block; }
+		#slider-properties{
+			padding-top:30px;
+		}
+		#slider-properties input
+		{
+	width:330px !important;
+	border-radius:5px !important;
+	font-size:14px;
+	height:30px;
+	font-family: 'Anonymous Pro', sans-serif;
+
+		}
+		#slider-properties select, #slider-properties textarea
+		{
+	width:330px !important;
+	border-radius:5px !important;
+	height:120px !important;
+	max-height:120px;
+	font-family: 'Anonymous Pro', sans-serif;
+		}
+		#slider-properties textarea
+		{
+	
+	height:60px !important;
+		}
+		#slider-properties select option{
+		font-size:14px;
+		}
+		.submit_btn{
+			height:38px; width:130px; padding: 5px 10px; color: black; text-decoration: none; border: 1px solid #ccc; float: left; display: block; margin-left: -1px; position: relative; left: 1px; font-size:17px; font-weight:bold; padding-top:20px; border-bottom:none !important; 
+			 font-family: 'Exo', sans-serif;
+			background:none !important;
+			border:none !important;
+}
+
+
+
+
+.of-save-popup {
+	position:absolute;
+	background:rgba(0, 0, 0, 0.5);
+	color:#fff;
+	font-size:24px;
+	text-align:center;
+	top:260px;
+	left:200px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	display:none;
+}
+
+.of-save-popup div{
+	background-repeat: no-repeat;
+	background-position: 20px 50%;
+	padding:30px 30px 30px 60px;
+}
+.of-save-save {
+	background-image: url(../images/button_check.png);
+}
+.of-save-fail {
+	background-image:url(../images/stop.png);
+}
+
+.of-save-popup {
+	z-index: 9999;
+}
